@@ -38,7 +38,7 @@ int	print_nbr(int n, char *base)
 
 int	print_unbr(unsigned int n, char *base)
 {
-	int					count;
+	int			count;
 	unsigned int		n_len;
 
 	count = 0;
@@ -51,7 +51,7 @@ int	print_unbr(unsigned int n, char *base)
 
 int	print_hexnbr(unsigned int n, char *base)
 {
-	int					count;
+	int			count;
 	unsigned int		n_len;
 
 	count = 0;
@@ -64,7 +64,7 @@ int	print_hexnbr(unsigned int n, char *base)
 
 int	point(unsigned long n, char *base)
 {
-	int					count;
+	int			count;
 	unsigned int		n_len;
 
 	count = 0;
