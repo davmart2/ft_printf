@@ -43,7 +43,7 @@ int	print_format(char spec, va_list args)
 
 int	ft_printf(const char *format, ...)
 {
-	va_list	args;
+	va_list		args;
 	int		count;
 
 	va_start(args, format);
